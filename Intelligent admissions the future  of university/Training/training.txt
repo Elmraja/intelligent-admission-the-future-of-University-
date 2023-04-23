@@ -1,0 +1,27 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+# %matplotlib inline
+
+data=pd.read_csv('Admission_predict.csv')
+data
+
+data.info()
+
+data.isnull().any()
+
+#let us rename the column Chance of Admit becuseit has trainLing space
+data=data.rename (columns = {'Chance of Admit ':' Chance of Admit'})
+
+data.describe()
+
+sns.distplot(data['GRE Score'])
+
+sns.scatterplot(x='University Rating',y='CGPA',data=data,color='Red',s=100)
+
+x=data.iloc[:,0:7].values
+x
+
+y=data.iloc[:,7:].values
+y

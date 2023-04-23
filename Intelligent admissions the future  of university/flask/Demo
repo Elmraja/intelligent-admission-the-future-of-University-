@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Kanit:ital,wght@1,300&family=Poppins:ital,wght@1,700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+       body{
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(education.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+       }
+    h1{
+        color: blue;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 30px;
+    }
+    h2{
+        color: white;
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    label{
+        color: white;
+        margin-bottom: 20px;
+        
+        
+    }
+    
+    .input{
+        margin-bottom: 20px;
+        width: 200px;
+        height: 20px;
+    }
+    h3{
+        color: aliceblue;
+    }
+    .btn{
+        margin-left: 70px;
+        width: 100px;
+        height: 40px;
+        background-color: blue;
+        color: aliceblue;
+        font-size: 20px
+    }
+    </style>
+</head>
+<body>
+    <div class="hole">
+<h1 class="heading">UNIVERSITY ADMISSION PREDICTION SYSTEM</h1>
+<h2>Enter your details and get probability of your admission</h2><br>
+    </div>
+    <form>
+        <div class="formcontrol">
+            <label for="des">Enter GRE scroe</label>
+            <input type="number" placeholder="Enter score" id="GRE" class="input" ><br>
+            <label for="des">Enter Toefl scroe</label>
+            <input type="number" placeholder="Enter score" id="Toefl" class="input"><br>
+            <h4>Select University number</h4><br>
+            <label>1</label>
+            <input type="checkbox" ><br><br>
+            <label>2</label>
+            <input type="checkbox" ><br><br>
+            <label>3</label>
+            <input type="checkbox" ><br><br>
+            <label>4</label>
+            <input type="checkbox" ><br><br>
+            <label>5</label>
+            <input type="checkbox" ><br><br>
+            <label for="des">Enter SOP</label>
+            <input type="number" placeholder="Enter score" id="GRE"class="input"><br>
+            <label for="des">Enter LOR</label>
+            <input type="number" placeholder="Enter score" id="GRE" class="input"><br>
+            <label for="des">Enter CGPA</label>
+            <input type="number" placeholder="Enter score" id="Toefl" class="input"><br>
+            <h3>Research</h4><br>
+            <label>Research</label>
+            <input type="checkbox" ><br><br>
+            <label>No Research</label>
+            <input type="checkbox" ><br><br>
+            <button class="btn">Predict</button>
+        </div>
+
+        </div>
+    </form>
+    <script>
+        
+    </script>
+</body>
+</html>
